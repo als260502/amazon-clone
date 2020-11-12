@@ -15,6 +15,13 @@
   border-radius: 24px;
 }
 
+.header_searchInput{
+  height: 12px;
+  padding:10px;
+  border: none;
+  width: 100%;
+}
+
 
 .header_logo{
   width: 100px;
@@ -28,4 +35,36 @@
   height: 22px !important;
   background-color: #cd9042;
 
+}
+
+.header_nav{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.header_options{
+display:flex;
+flex-direction: column;
+margin: 0 10px;  
+color:white;
+}
+
+.header_optionLineOne{
+  font-size: 10px;
+}
+
+.header_optionLineTwo{
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header_optionBasket{
+  display:flex;
+  align-items:center;
+  color:white; 
+
+}
+
+.header_basketCount{
+  margin: 0 10px;
 }
