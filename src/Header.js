@@ -7,7 +7,7 @@ import { useStateValue } from './StateProvider';
 import { auth } from './firebase'
 
 function Header() {
-  const [{ basket, user }, dispatch] = useStateValue();
+  const [{ basket, user },] = useStateValue();
 
 
   const handleAuthentication = () => {
@@ -38,7 +38,7 @@ function Header() {
         <Link to={!user && '/Login'}>
           <div onClick={handleAuthentication} className="header_options">
             <span className="header_optionLineOne">
-              {user?.email ? user.email : 'Hello Guest'}
+              {user?.email ? `Hello ${user.email}` : 'Hello Guest'}
             </span>
             <span className="header_optionLineTwo">
               {user ? 'Sign Out' : 'Sign In'}
