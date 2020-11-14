@@ -29,7 +29,7 @@ function Home() {
             title="Kenwood kMix Stand Mixer for Baking,
             Stylish Kitchen Mixer with K-beater, Dough 
             Hook and Whisky, 5 Litre Glass Bowl"
-            price={239.0}
+            price={239}
             image="https://kitchenaid.vtexassets.com/arquivos/ids/161702-800-800?width=800&height=800&aspect=true"
             rating={4}
           />
@@ -41,14 +41,14 @@ function Home() {
           <Product
             id="4903850"
             title="Relógio Garmin Venu 43mm Smartwatch Silicone Band"
-            price={199.0}
+            price={199.80}
             image="https://images-na.ssl-images-amazon.com/images/I/51kyjYuOZhL._AC_SL1000_.jpg"
             rating={3}
           />
           <Product
             id="23445930"
             title="Novo Echo Dot (4ª Geração): Smart Speaker com Alexa - Cor Preta"
-            price={89.9}
+            price={89.0}
             image="https://http2.mlstatic.com/D_NQ_NP_985505-MLB32686886919_102019-O.webp"
             rating={5}
           />
@@ -56,7 +56,7 @@ function Home() {
           <Product
             id="3254354345"
             title="Apple iPad 8ª Geração 10.2', Wi-Fi, 128GB Space Gray - A2270"
-            price={598.89}
+            price={598.0}
             image="https://images-na.ssl-images-amazon.com/images/I/71UddJ3JSLL._AC_SL1500_.jpg"
             rating={2}
           />
@@ -67,7 +67,7 @@ function Home() {
           <Product
             id="49030850"
             title="Samsung LC49RG90SSUXEN 49' Curved Led Gaming Monitor"
-            price={199.0}
+            price={3199.0}
             image="https://images-na.ssl-images-amazon.com/images/I/71e1jYter4L._AC_SL1000_.jpg"
             rating={3}
           />

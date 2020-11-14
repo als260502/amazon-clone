@@ -9,7 +9,7 @@ import { auth } from './firebase'
 function Header() {
   const [{ basket, user },] = useStateValue();
 
-
+  //console.log(user)
   const handleAuthentication = () => {
 
     if (user) {
@@ -46,14 +46,16 @@ function Header() {
           </div>
         </Link>
 
-        <div className="header_options">
-          <span className="header_optionLineOne">
-            Returns
+        <Link to='/orders'>
+          <div className="header_options">
+            <span className="header_optionLineOne">
+              Returns
           </span>
-          <span className="header_optionLineTwo">
-            & Orders
+            <span className="header_optionLineTwo">
+              & Orders
           </span>
-        </div>
+          </div>
+        </Link>
 
         <div className="header_options">
           <span className="header_optionLineOne">
